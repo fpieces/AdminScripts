@@ -1,4 +1,8 @@
-﻿function Get-WMIRegValue {
+#Test to see what/where a logged on user account will have admin privileges on a domain.
+#Written by @Fpieces
+#12/27/2016
+ 
+ function Get-WMIRegValue {
     [cmdletbinding()]
     param (
         [parameter(Mandatory=$false, Position=1)]
