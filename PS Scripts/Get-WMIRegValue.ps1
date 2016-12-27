@@ -1,4 +1,4 @@
-#Test to see what/where a logged on user account will have admin privileges on a domain.
+#Uses WMI to look up Registry values on local/remote systems.
 #Written by @Fpieces
 #12/27/2016
  
